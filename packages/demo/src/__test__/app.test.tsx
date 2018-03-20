@@ -1,0 +1,10 @@
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import App from "../app";
+/**
+ * Test wont pass until wrapped with ThemeProvider 
+ */
+it("renders without crashing", () => {
+  const div = document.createElement("div");
+  ReactDOM.render(<App />, div);
+});

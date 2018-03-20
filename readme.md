@@ -1,0 +1,3 @@
+defintion files to use [jss-in-js]() with Typescript
+
+wip...
